@@ -30,7 +30,7 @@ $(function () {
                 if (res.status !== 0) {
                     return layer.msg("获取文章数据失败");
                 }
-                var art = res.data;
+                var art = res.data[0];
                 form.val("article-pub", art);
                 // 2、初始化富文本编辑器
                 initEditor();
