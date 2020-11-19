@@ -36,7 +36,7 @@ $(function () {
                 initEditor();
                 // 3、初始化图片裁剪器
                 var $image = $('#image');
-                $image.prop("src", "http://120.27.211.140" + art.cover_img);
+                $image.prop("src", "http://120.27.211.140:9090" + art.cover_img);
                 // 3.1 裁剪选项
                 var options = {
                     aspectRatio: 400 / 280,

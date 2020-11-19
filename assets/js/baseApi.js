@@ -3,7 +3,7 @@
 $.ajaxPrefilter(function (options) {
     // 1、将根目录和接口地址拼接
     // options.url = "http://ajax.frontend.itheima.net" + options.url;
-    options.url = "http://120.27.211.140" + options.url;
+    options.url = "http://120.27.211.140:9090" + options.url;
 
     // 2、为有权限的接口设置headers请求头
     // 判断请求的地址中 是否包含/my/  如果包含 则需要加headers
